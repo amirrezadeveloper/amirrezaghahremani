@@ -1,21 +1,23 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
 
 export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Amirreza Ghahremani
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Skilled in ASP.NET Core and MVC for building web applications.
+Experience with Microservices using gRPC, GraphQL, and REST APIs.
+Proficient in Entity Framework Core and SQL Server for database management.
+Experienced with Security using JWT, OAuth, and ASP.NET Identity.
+Knowledge of CQRS and Clean Architecture for building maintainable systems.
+Experienced in JavaScript and Angular for front-end development.
+Familiar with Git and DevOps for version control and CI/CD.`}
       </p>
       <div className="my-8">
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
